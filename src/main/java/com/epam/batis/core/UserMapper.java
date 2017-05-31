@@ -22,4 +22,6 @@ public interface UserMapper {
 
     @Select("SELECT * FROM User u WHERE u.id = #{id}")
     User findUserById(Integer id);
+
+    // add deleting here
 }
