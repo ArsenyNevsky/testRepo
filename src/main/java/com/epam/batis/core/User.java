@@ -12,7 +12,7 @@ import java.sql.Timestamp;
 @AllArgsConstructor
 public class User implements Serializable {
 
-
+    // some comment
     private Integer id;
     private String firstname;
     private String middlename;

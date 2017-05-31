@@ -7,9 +7,11 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
+
 @Mapper
 public interface UserMapper {
 
+    // comment
     @Insert("INSERT INTO User(firstname, middlename, lastname, email, password, birthday) " +
             "VALUES(#{firstname}, #{middlename}, #{lastname}, #{email}, #{password}, #{birthday})")
     @Options(useGeneratedKeys = true)
