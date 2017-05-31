@@ -10,6 +10,10 @@ public class UserService {
     //@Autowired
     private UserMapper userMapper;
 
+    public void createUser(User user) {
+
+    }
+
     public Collection<User> getAll() {
         List<User> users = userMapper.getAllUsers();
 
