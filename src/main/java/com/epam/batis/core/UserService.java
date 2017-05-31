@@ -14,6 +14,14 @@ public class UserService {
 
     }
 
+    public void updateUser(User user) {
+
+    }
+
+    public boolean checkIfExists(String email) {
+        return false;
+    }
+
     public Collection<User> getAll() {
         List<User> users = userMapper.getAllUsers();
 
