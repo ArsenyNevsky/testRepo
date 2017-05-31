@@ -8,7 +8,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.sql.Timestamp;
 import java.util.Date;
-//import org.mybatis.spring.boot.test.autoconfigure.MybatisTest;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
@@ -42,6 +41,10 @@ public class UserServiceTest {
                 .build();
         userMapper.createUser(user);
         System.out.println("\n\n" + userMapper.getAllUsers());
+    }
+
+    public void deleteUser() {
+
     }
 
 }
