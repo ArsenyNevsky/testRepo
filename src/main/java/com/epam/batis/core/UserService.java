@@ -20,4 +20,8 @@ public class UserService {
 
         return user;
     }
+
+    public void deleteUser(Integer id) {
+
+    }
 }
